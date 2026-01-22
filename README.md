@@ -1,20 +1,20 @@
 # Data Structures & Algorithms (C++ & Python)
 
-A structured **60-day DSA problem list** for serious full-stack developers.
+A structured **day by DSA problem list** for developers.
 
 * Same problem solved in **C++ and Python**
 * Logic-first approach (you write the code)
 * Clean, single-table navigation for GitHub
 
----
+---  
 
 
 ## 📅  DSA Problem List
 
 | Day | Topic          | Problem / Question                             | C++ Solution                 | Python Solution               |
 | --- | -------------- | ---------------------------------------------- | ---------------------------- | ----------------------------- |
-| 01  | Basics         | Analyze Time & Space Complexity                | [day-01.cpp](cpp/day-01.cpp) | [day-01.py](python/day-01.py) |
-| 02  | Arrays         | Find Maximum Element in Array                  | [day-02.cpp](cpp/day-02.cpp) | [day-02.py](python/day-02.py) |
+| 01  | Basics         | Find Maximum Element in Array                  | [day-01.cpp](cpp/day-01.cpp) | [day-01.py](python/day-01.py) |
+| 02  | Arrays         | Analyze Time & Space Complexity                | [day-02.cpp](cpp/day-02.cpp) | [day-02.py](python/day-02.py) |
 | 03  | Arrays         | Check if Array is Sorted                       | [day-03.cpp](cpp/day-03.cpp) | [day-03.py](python/day-03.py) |
 | 04  | Arrays         | Reverse an Array                               | [day-04.cpp](cpp/day-04.cpp) | [day-04.py](python/day-04.py) |
 | 05  | Arrays         | Find Second Largest Element                    | [day-05.cpp](cpp/day-05.cpp) | [day-05.py](python/day-05.py) |
