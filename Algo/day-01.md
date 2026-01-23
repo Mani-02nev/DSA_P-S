@@ -1,4 +1,5 @@
-## Question 1
+## DATE:22/1/2026
+## Question :
 ### Traverse an Array
 #### Problem
      Given an array of size N, process each element exactly once.and found the lenght to array 

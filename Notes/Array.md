@@ -1,3 +1,4 @@
+## DATE:22/1/2026
 # What is an Array?
 - An array is a fundamental data structure that stores elements in contiguous memory locations. Each element can be accessed directly using its index, making arrays one of the most efficient data structures for random access operations.
 
