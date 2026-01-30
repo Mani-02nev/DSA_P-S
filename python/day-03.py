@@ -1,12 +1,14 @@
-my_array = [4, 2, 7, 1, 9, 5,8,10,3,6,0,]
-print(f"Sorted Array: {my_array}")
-reversed_array = []
-def reverse_array(arr):
-     for i in range(len(arr)-1, -1, -1):
-          reversed_array.append(arr[i])
-     return reversed_array
-# Test the reverse_array function
-print(f"Original Array: {my_array}")
-reversed_result = reverse_array(my_array)
-print(f"Reversed Array: {reversed_result}")
+
+arr=[5, 3, 8, 6, 2, 7, 4, 1, 0, 9]
+# Lener serch
+f=False
+target=int(input("Enter the target value: "))
+for i in arr:
+     if i==target:
+          print(f"Target {target} found in the array")
+          print(f"Index of the target {target} is :{arr.index(i)}")
+          f=True
+          break
+if f==False:
+          print(f"Target {target} not found in the array")
 

@@ -1,19 +1,20 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main()
 {
      int array[] = {5, 3, 8, 6, 2, 7, 4, 1, 0, 9};
-     int size = sizeof(array) / sizeof(array[0]);
-     printf("Original Array: ");
-     for (int i = 0; i < size; i++)
+     int n;
+     cout << "enter the serching element: ";
+     cin >> n;
+     int i = 0;
+     for (int x : array)
      {
-          printf("%d ", array[i]);
+          if (x == n)
+          {
+               cout << "Element found at index " << (i) << endl;
+               break;
+          }
+          i++;
      }
-     printf("\n");
-     printf("Reversed Array: ");
-     for (int i = size - 1; i >= 0; i--)
-     {
-          printf("%d ", array[i]);
-     }
-     printf("\n");
-     return 0;
+     cout << "\n";
 }
