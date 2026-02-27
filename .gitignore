@@ -1,0 +1,32 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.so
+*.gch
+*.pch
+
+# Static and Dynamic Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.dylib
+
+# Executables (General)
+*.exe
+*.out
+*.app
+
+# Specific to your current build (day-07)
+day-07
+
+# IDE folders (Optional but recommended)
+.vscode/
+.idea/
+build/
+dist/
